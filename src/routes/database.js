@@ -1,10 +1,10 @@
 const mysql = require ('mysql');
 
 const mysqlConnection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
+    host: 'mysql-tolellin.alwaysdata.net',
+    user: 'tolellin_data',
     password:'24312513',
-    database: 'escleapp'
+    database: 'tolellin_escleapp'
 })
 
 mysqlConnection.connect(function (err) {
